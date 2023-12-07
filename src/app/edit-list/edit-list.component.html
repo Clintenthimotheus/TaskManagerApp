@@ -1,0 +1,54 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="main-box">
+            <div class="box">
+                <h2 class="text-center">Edit</h2>
+                <form [formGroup]="taskForm" (ngSubmit)="taskFormEdit()" class="box-2">
+                    <div class="box-5">
+                        <!-- <div class="form-floating mb-3">
+                        <input [(ngModel)]="taskData.id" type="text" class="form-control" id="floatingNo" placeholder="Title">
+                        <label for="floatingNo">No</label>
+                    </div> -->
+                        <div class="form-floating mb-3">
+                            <input name="Title" formControlName="Title" type="text" class="form-control"
+                                id="floatingTitle" placeholder="Title">
+                            <label for="floatingTitle" id="floatingTitle">Title</label>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="form-floating mb-3">
+                            <input name="Description" formControlName="Description" type="text" class="form-control"
+                                id="floatingDescriptiont" placeholder="Description">
+                            <label for="floatingDescription">Description</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select name="TaskstatusId" formControlName="TaskstatusId" name="TaskstatusId"
+                                class="form-select" id="floatingSelect" aria-label="Floating select">
+                                <option selected disabled>Select Status</option>
+                                <option [ngValue]="data.id" *ngFor="let data of taskstay">{{data.status}}</option>
+                                <!-- <option value="2">Completed</option> -->
+                            </select>
+                            <label for="floatingSelect">Status</label>
+                        </div>
+                    </div>
+                    <div class="button-box">
+                        <button type="submit" class="btn btn-info">Submit</button>
+                        <button class="btn btn-dark" routerLink="/">Back</button>
+                    </div>
+                    <div *ngIf="taskForm.get('Title')?.errors?.['required'] && taskForm.get('Title')?.touched">
+                        <small class="text-danger">Title is required</small>
+                    </div>
+                    <div
+                        *ngIf="taskForm.get('Description')?.errors?.['required'] && taskForm.get('Description')?.touched">
+                        <small class="text-danger">Description is required</small>
+                    </div>
+                    <div
+                        *ngIf="taskForm.get('TaskstatusId')?.errors?.['required'] && taskForm.get('TaskstatusId')?.touched">
+                        <small class="text-danger">Status is required</small>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

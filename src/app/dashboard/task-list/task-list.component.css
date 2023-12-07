@@ -1,0 +1,159 @@
+.container-fluid{
+    background-color: black;
+    height: 100%;
+  
+}
+.box h2{
+    font-family: auto;
+    color: black;
+    font-size: 2rem;
+    background-color: aqua;
+    padding: 1rem;
+}
+.box{
+    height: 25rem;
+    width: 31rem;
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.main-box{
+    height: 44.2rem;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 3rem;
+}
+.box-3{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control {
+   font-size: 1.1rem;
+    border: 1px solid black;
+}
+#buttonsubmit{
+    margin-left: 9rem;
+    width: 11rem;
+}
+td i{
+    font-weight: 900;
+    padding-left: 0.1rem;
+    cursor: pointer;
+}
+
+
+
+.table-container{
+    width: 100%; 
+    overflow:auto;
+    height: 459px;
+}
+.form-select{
+    width: 14rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+}
+.custom-checkbox {
+    width: 56px;
+    height: 22px;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 7px;
+  }
+  
+.card-body{
+    width: 50rem;
+    height: 34rem;
+}
+#inputset{
+    margin-left: 25rem;
+}
+.box-5{
+    display: flex;
+
+}
+#floatingTitle{
+    width: 4rem;
+     width: 24rem;
+      margin-left: 1rem;
+}
+
+.title-cell {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+
+/* .container-fluid {
+    background-color: black;
+    height: 100%;
+  }
+  
+  .box h2 {
+    font-family: auto;
+    color: black;
+    font-size: 2rem;
+    background-color: aqua;
+    padding: 1rem;
+  }
+  
+  .box {
+    width: 90%; 
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 1rem;
+    margin: 1rem auto; 
+  }
+  
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem; 
+  }
+  
+  .box-3 {
+    flex-direction: column; 
+  }
+  
+  #buttonsubmit {
+    width: 100%; 
+    margin: 1rem 0; 
+  }
+  
+  .form-select {
+    width: 100%; 
+    margin-bottom: 1rem; 
+  }
+  
+  #floatingTitle {
+    width: 100%; 
+    margin-bottom: 1rem; 
+  }
+  
+  
+  @media (min-width: 768px) {
+    .box {
+      width: 40%; 
+    }
+  
+    .main-box {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .box-3 {
+      flex-direction: row;
+    }
+  
+    #buttonsubmit,
+    .form-select,
+    #floatingTitle {
+      width: auto; 
+      margin: 0; 
+    }
+  } */

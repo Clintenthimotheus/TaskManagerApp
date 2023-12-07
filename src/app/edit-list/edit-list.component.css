@@ -1,0 +1,62 @@
+.container-fluid{
+    background-color: black;
+    height: 100%;
+  
+}
+.box h2{
+    font-family: auto;
+    color: black;
+    font-size: 2rem;
+    background-color: aqua;
+    padding: 1rem;
+}
+.box{
+    height: 20.2rem;
+    width: 31rem;
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 1rem;
+}
+.main-box{
+    height: 44.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.box-3{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control {
+   font-size: 1.1rem;
+    border: 1px solid black;
+}
+
+.form-select{
+    width: 14rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+}
+.main-box{
+    height: 44.2rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 3rem;
+}
+.button-box{
+    display: flex;
+    justify-content: space-between;
+}
+.button-box button{
+    width: 10rem;
+}
+.box-5{
+    display: flex;
+
+}
+#floatingTitle{
+    width: 29rem;
+     
+}
