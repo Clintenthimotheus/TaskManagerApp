@@ -1,94 +1,506 @@
-.container-fluid{
-    background-color: black;
-    height: 100%;
-  
-}
-.box h2{
-    font-family: auto;
-    color: black;
-    font-size: 2rem;
-    background-color: aqua;
-    padding: 1rem;
-}
-.box{
-    height: 25rem;
-    width: 31rem;
-    background-color: #ffffff;
-    border-radius: 9px;
-    padding: 1rem;
-    margin-left: 2rem;
-}
-.main-box{
-    height: 44.2rem;
-    display: flex;
-    justify-content: space-between;
+.container-fluid {
+  background-color: black;
+  height: 100%;
 
-    padding-top: 3rem;
 }
-.box-3{
-    display: flex;
-    justify-content: space-between;
+
+.box h2 {
+  font-family: auto;
+  color: black;
+  font-size: 2rem;
+  background-color: aqua;
+  padding: 1rem;
 }
+
+.box {
+  height: 25rem;
+  width: 31rem;
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.main-box {
+  height: 44.2rem;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 3rem;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .form-control {
-   font-size: 1.1rem;
-    border: 1px solid black;
+  font-size: 1.1rem;
+  border: 1px solid black;
 }
-#buttonsubmit{
-    margin-left: 9rem;
-    width: 11rem;
+
+#buttonsubmit {
+  margin-left: 9rem;
+  width: 11rem;
 }
-td i{
-    font-weight: 900;
-    padding-left: 0.1rem;
-    cursor: pointer;
+
+td i {
+  font-weight: 900;
+  padding-left: 0.1rem;
+  cursor: pointer;
 }
 
 
 
-.table-container{
-    width: 100%; 
-    overflow:auto;
-    height: 459px;
+.table-container {
+  width: 100%;
+  overflow: auto;
+  height: 459px;
 }
-.form-select{
-    width: 14rem;
-    font-size: 1.1rem;
-    border: 1px solid black;
+
+.form-select {
+  width: 14rem;
+  font-size: 1.1rem;
+  border: 1px solid black;
 }
+
 .custom-checkbox {
-    width: 56px;
-    height: 22px;
-    cursor: pointer;
-    margin-left: 1rem;
-    margin-top: 7px;
-  }
-  
-.card-body{
-    width: 50rem;
-    height: 34rem;
+  width: 56px;
+  height: 22px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 7px;
 }
-#inputset{
-    margin-left: 25rem;
+
+.card-body {
+  width: 50rem;
+  height: 34rem;
 }
-.box-5{
-    display: flex;
+
+#inputset {
+  margin-left: 25rem;
+}
+
+.box-5 {
+  display: flex;
 
 }
-#floatingTitle{
-    width: 4rem;
-     width: 24rem;
-      margin-left: 1rem;
+
+#floatingTitle {
+
+  width: 24rem;
+  margin-left: 1rem;
 }
 
 .title-cell {
-    max-width: 200px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.card{
+  width: 100%;
+}
+@media (min-width: 1090px) and (max-width: 1360px) {
+  .card-body{
+    width: 39rem;
+    height: 27rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .table-container{
+    width: 98%;
+    overflow: auto;
+    height: 358px;
+  }
+  .main-box{
+    height: 38.3rem;
+  }
+  #inputset{
+    margin-left: 17rem;
+  }
+  .box{
+    height: 23rem;
+    width: 27rem;
+  }
+  #floatingTitle{
+    width: 19rem;
+  }
+  #buttonsubmit{
+    margin-left: 7rem;
+  }
+}
+@media (min-width: 960px) and (max-width: 1090px) {
+  .card-body{
+    width: 33rem;
+    height: 28rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .table-container{
+    width: 98%;
+    overflow: auto;
+    height: 358px;
+  }
+  .main-box{
+    height: 38rem 
+  }
+  #inputset{
+    margin-left: 17rem;
+  }
+  .box{
+    margin-left: 0rem;
+    height: 22rem;
+    width: 25rem;
+  }
+  #floatingTitle{
+    width: 19rem;
+  }
+  #buttonsubmit{
+    margin-left: 7rem;
+  }
 }
 
+@media (min-width: 949px) and (max-width: 960px) {
+  .main-box {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 1rem;
+  }
 
+  .box {
+    width: 52%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    width: 90%;
+    height: auto;
+  }
+
+  #inputset {
+    margin-left: 188px;
+    width: 18rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #floatingTitle {
+    width: 23rem;
+    margin-left: 4px;
+  }
+
+  .title-cell {
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  #floatingNo{
+    width: 5rem;
+  }
+  .card{
+    width: 30rem;
+  }
+  #cardd{
+    width: 28rem;
+  }
+
+}
+@media (min-width: 926px) and (max-width: 949px) {
+  .main-box {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  .box {
+    width: 52%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    width: 90%;
+    height: auto;
+  }
+
+  #inputset {
+    margin-left: 188px;
+    width: 18rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #floatingTitle {
+    width: 22.1rem;
+    margin-left: 4px;
+  }
+
+  .title-cell {
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  #floatingNo{
+    width: 5rem;
+  }
+  .card{
+    width: 30rem;
+  }
+  #cardd{
+    width: 28rem;
+  }
+
+}
+@media (min-width: 902px) and (max-width: 926px) {
+  .main-box {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  .box {
+    width: 52%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    width: 90%;
+    height: auto;
+  }
+
+  #inputset {
+    margin-left: 188px;
+    width: 18rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #floatingTitle {
+    width: 21.1rem;
+    margin-left: 4px;
+  }
+
+  .title-cell {
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  #floatingNo{
+    width: 5rem;
+  }
+  .card{
+    width: 30rem;
+  }
+  #cardd{
+    width: 28rem;
+  }
+
+}
+@media (max-width: 902px) {
+  .main-box {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  .box {
+    width: 30rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .card-body {
+    width: 90%;
+    height: auto;
+  }
+
+  #inputset {
+    margin-left: 188px;
+    width: 18rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #floatingTitle {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .title-cell {
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  .card{
+    width: 30rem;
+  }
+  #cardd{
+    width: 28rem;
+  }
+
+}
+@media (max-width: 485px) {
+  .container-fluid {
+    background-color: black;
+    height: 72rem;
+    width: 100%;
+  
+  }
+  .box{
+    width: 25rem;
+    height: 34rem;
+}
+ #floatingTitle {
+    width: 100%;
+    margin-left: 0;
+  }
+.main-box{
+    height: 38.2rem;
+}
+.form-select{
+  width: 23rem;
+}
+.box-3{
+    display: inherit;
+}
+.button-box button{
+    width: 7rem;
+}
+.box-5 {
+  display: flex;
+  flex-direction: column;
+}
+.card-body {
+    width: 90%;
+    height: auto;
+  }
+  #inputset {
+    margin-left: 123px;
+    width: 18rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .card{
+    width: 26rem;
+
+  }
+  #cardd{
+    margin-left: 0rem;
+    width: 24rem;
+  }
+ .title-cell {
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  #buttonsubmit{
+    margin-left: 6rem;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 420px) { 
+.box{
+  width: 20rem;
+  height: 35rem;
+}
+.form-select{
+  width: 100%;
+}
+#buttonsubmit{
+  margin-left: 5rem;
+  width: 9rem;
+}
+#inputset {
+margin-left: 84px;
+    width: 16rem;
+}
+.card{
+  width: 21rem;
+  margin-left: 1rem;
+}
+#cardd{
+  width: 19rem;
+}
+
+}
+@media (max-width: 358px) { 
+  .box{
+    width: 20rem;
+    height: 35rem;
+  }
+  .form-select{
+    width: 100%;
+  }
+  #buttonsubmit{
+    margin-left: 5rem;
+    width: 9rem;
+  }
+  #inputset {
+    margin-left: 85px;
+    width: 15rem;
+    font-size: 13px;
+  }
+  .card{
+    width: 19.7rem;
+    margin-left: 1rem;
+  }
+  #cardd{
+    width: 18rem;
+  }
+  td,th{
+    font-size: 14px;
+  }
+  td i{
+    font-size: 14px;
+  }
+  }
+  @media (max-width: 333px) { 
+    .box{
+      width: 18rem;
+      height: 35rem;
+    }
+    .form-select{
+      width: 100%;
+    }
+    #buttonsubmit{
+      margin-left: 4rem;
+      width: 9rem;
+    }
+    #inputset {
+      margin-left: 54px;
+      width: 15rem;
+      font-size: 13px;
+    }
+    .card{
+      width: 18.5rem;
+      margin-left: 0rem;
+    }
+    #cardd{
+      width: 17rem;
+    }
+    td,th{
+      font-size: 13px;
+    }
+    td i{
+      font-size: 13px;
+    }
+    }
 /* .container-fluid {
     background-color: black;
     height: 100%;

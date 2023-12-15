@@ -39,7 +39,7 @@
     border: 1px solid black;
 }
 .main-box{
-    height: 44.2rem;
+    height: 43.4rem;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -59,4 +59,62 @@
 #floatingTitle{
     width: 29rem;
      
+}
+@media (max-width:768px){
+    .main-box{
+        height: 38.2rem;
+    }
+}
+
+
+@media (min-width: 415px) and (max-width: 500px) {
+    .box{
+        width: 26rem;
+    }
+    #floatingTitle{
+        width: 24rem;
+    }
+    .main-box{
+        height: 38.2rem;
+    }
+    .form-select{
+        width: 12rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 415px) {
+    .box{
+        width: 25rem;
+    }
+    #floatingTitle{
+        width: 22rem;
+    }
+    .main-box{
+        height: 38rem;
+        padding-top: 0rem;
+    }
+    .form-select{
+        width: 12rem;
+    }
+}
+@media (min-width: 300px) and (max-width: 385px) {
+    .box{
+        width: 19rem;
+        height: 27rem;
+    }
+    #floatingTitle{
+        width: 17rem;
+    }
+    .main-box{
+        height: 38.2rem;
+    }
+    .form-select{
+        width: 17rem;
+    }
+    .box-3{
+        display: inherit;
+    }
+    .button-box button{
+        width: 7rem;
+    }
 }
